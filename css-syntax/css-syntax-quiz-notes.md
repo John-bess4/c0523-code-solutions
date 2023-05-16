@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
-
+  a selector and a declartion block
 - In CSS, how do you select elements by their `class` attribute?
-
+  with a (.)character followed by the class
 - In CSS, how do you select elements by their tag name?
-
+  By putting the element as the selector
 - In CSS, how do you select an element by its `id` attribute?
+  A hash symbol # followed by the id of the element
 
 ## Notes
 
