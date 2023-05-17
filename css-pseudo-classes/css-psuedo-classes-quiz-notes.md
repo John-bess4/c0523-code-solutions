@@ -5,8 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a pseudo-class?
-
+  State that an element is in so we can apply certain properties while it's in thtat state
 - What are CSS pseudo-classes useful for?
+  target certain portions of your coding when there are state changes
 
 ## Notes
 
