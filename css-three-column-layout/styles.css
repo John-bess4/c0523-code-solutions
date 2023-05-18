@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1996da;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  flex-flow: column;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one {
+  flex-basis: 100%;
+}
+
+.picture {
+  width: 60%;
+}
+
+.column-two {
+  flex-basis: 100%;
+}
+
+.column-three {
+  flex-basis: 100%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
