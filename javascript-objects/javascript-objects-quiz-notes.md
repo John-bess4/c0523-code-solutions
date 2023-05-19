@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are objects used for?
-  -They’re used to store keyed collections of various data and more complex entities.
+  They’re used to store keyed collections of various data and more complex entities.
 
 - What are object properties?
   Similar to variables but they are associated with objects not scopes, they help define the objects
