@@ -1,18 +1,10 @@
-//  Prob 1-3 assigned the numbers to the varialbes below
-// assigned method to variabe maxValue
-// console.log(Math.max(333, 222, 444));
-
-const numOne = [111];
-const numTwo = [222];
-const numThree = [333];
+const numOne = 111;
+const numTwo = 222;
+const numThree = 333;
 
 const maxValue = Math.max(numOne, numTwo, numThree);
-//  const minValue = Math.min(numOne,numTwo,numThree);
 
 console.log('maxValue:', maxValue);
-//  console.log('minValue:',minValue);
-
-//  problems 4-10
 
 const heroes = ['Batman', 'Goku', 'Naruto', 'Superman'];
 
@@ -24,11 +16,6 @@ console.log('randomIndex:', randomIndex);
 
 const randomHero = heroes[randomIndex];
 console.log('randomHero:', randomHero);
-
-//  assigning two arguments string heroes and method randomINdex to variable
-
-//  the log method of the console object is being
-// called on two arguments one string and variable area //
 
 const library = [
   {
@@ -64,7 +51,6 @@ library.splice(1, 1);
 
 console.log('library:', library);
 
-//   string methods
 const fullName = 'John Bess';
 const firstAndLastName = fullName.split(' ');
 
