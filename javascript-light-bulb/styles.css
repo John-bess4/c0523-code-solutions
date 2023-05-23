@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(60, 60, 60);
+}
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  align-items: center;
+  margin: 0.25rem;
+  padding: 7rem;
+  border: none;
+  border-radius: 10rem;
+  font-size: 2rem;
+  background-color: black;
+  box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body.white-bg {
+  background-color: rgb(255, 250, 205);
+}
+
+button.yellow-bg {
+  background-color: yellow;
+  color: yellow;
+}
