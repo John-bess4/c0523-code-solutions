@@ -1,14 +1,14 @@
-const contactForm = document.querySelector('#contact-form');
+const $contactForm = document.querySelector('#contact-form');
 
-contactForm.addEventListener('submit', function (event) {
+$contactForm.addEventListener('submit', function (event) {
   event.preventDefault();
 
-  const formData = {
-    name: contactForm.elements.name.value,
-    email: contactForm.elements.email.value,
-    message: contactForm.elements.message.value,
+  const $messageData = {
+    name: $contactForm.elements.name.value,
+    email: $contactForm.elements.email.value,
+    message: $contactForm.elements.message.value,
   };
-  console.log('contactForm:', contactForm);
-  console.log('formData:', formData);
-  contactForm.reset();
+
+  console.log('$messageData:', $messageData);
+  $contactForm.reset();
 });

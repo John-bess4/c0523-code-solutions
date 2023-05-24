@@ -16,17 +16,17 @@ function handleInput(event) {
 }
 console.log('handleInput:', handleInput);
 
-const inputElements = document.querySelector('input');
-const textArea = document.querySelector('textarea');
+const $inputElements = document.querySelector('input');
+const $textArea = document.querySelector('textarea');
 
-for (let i = 0; i < inputElements.maxLength; i++) {
-  inputElements[i].addEventListener('focus', handleFocus);
-  inputElements[i].addEventListener('blur', handleBlur);
-  inputElements[i].addEventListener('input', handleInput);
+for (let i = 0; i < $inputElements.maxLength; i++) {
+  $inputElements[i].addEventListener('focus', handleFocus);
+  $inputElements[i].addEventListener('blur', handleBlur);
+  $inputElements[i].addEventListener('input', handleInput);
 }
-textArea.addEventListener('focus', handleFocus);
-textArea.addEventListener('input', handleInput);
-textArea.addEventListener('blur', handleBlur);
+$textArea.addEventListener('focus', handleFocus);
+$textArea.addEventListener('input', handleInput);
+$textArea.addEventListener('blur', handleBlur);
 
-console.log('inputElements:', inputElements);
-console.log('textArea:', textArea);
+console.log('$inputElements:', $inputElements);
+console.log('$textArea:', $textArea);
