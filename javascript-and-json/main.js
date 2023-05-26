@@ -17,20 +17,20 @@ const books = [
 ];
 
 console.log('Array of books:', books);
-console.log('Type of books:', typeof books);
+console.log('typeof books:', typeof books);
 
 const booksJSON = JSON.stringify(books);
 
 console.log('JSON String of books:', booksJSON);
-console.log('Type of booksJSON:', typeof booksJSON);
+console.log('typeof booksJSON:', typeof booksJSON);
 
 const studentJSON = '{"id": 98765, "name": "Jane Smith"}';
 
 console.log('JSON String of student:', studentJSON);
 
-console.log('Type of studentJSON:', typeof studentJSON);
+console.log('typeof studentJSON:', typeof studentJSON);
 
 const student = JSON.parse(studentJSON);
 
 console.log('Object representation of student:', student);
-console.log('Type of student:', typeof student);
+console.log('typeof student:', typeof student);
