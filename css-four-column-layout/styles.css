@@ -7,7 +7,15 @@ body {
   flex-wrap: no-wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+}
+
+h3 {
+  padding-left: 45px;
+}
+
+p {
+  padding-left: 10px;
 }
 
 img {
