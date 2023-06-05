@@ -18,7 +18,7 @@ You cna use the setInterval method that will repwatedly call a fcuntion or execu
 
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
 
-0
+0 seconds, function will go into effect when page is loaded wihtout delay parameter
 
 - What do `setTimeout()` and `setInterval()` return?
 

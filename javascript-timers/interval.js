@@ -13,5 +13,5 @@ function countDown() {
 let count = 4;
 
 const intervalId = setInterval(function () {
-  countDown(count);
+  countDown();
 }, 1000);
