@@ -18,7 +18,7 @@ You cna use the setInterval method that will repwatedly call a fcuntion or execu
 
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
 
-4 ms minimumn time delay
+0
 
 - What do `setTimeout()` and `setInterval()` return?
 
